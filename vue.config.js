@@ -1,3 +1,7 @@
 module.exports = {
-    publicPath: '/gitshape_vue/'
+    publicPath: '/',
+
+    configureWebpack: {
+        devtool: 'inline-source-map',
+    },
 }

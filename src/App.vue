@@ -1,12 +1,18 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
+    <b-button target="_blank" href="http://localhost:5000/github-login">Login to GitHub</b-button>
+    <b-button target="_blank" href="http://localhost:5000/onshape-login">Login to Onshape</b-button>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import {Vue} from 'vue-property-decorator';
+import { ButtonPlugin } from 'bootstrap-vue'
+
+Vue.use(ButtonPlugin)
 
 export default {
   name: 'App',
