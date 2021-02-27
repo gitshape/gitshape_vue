@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <b-button target="_blank" href="api/github-login">Login to GitHub</b-button>
-    <b-button target="_blank" href="api/onshape-login">Login to Onshape</b-button>
+    <b-button target="_blank" href="api/login/github">Login to GitHub</b-button>
+    <b-button target="_blank" href="api/login/onshape">Login to Onshape</b-button>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
